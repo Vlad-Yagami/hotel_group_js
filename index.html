@@ -9,10 +9,43 @@
 </head>
 
 <body>
+    <nav class="navmenu">
+        <ul>
+            <div class="menuimg"></div>
+            <li class="menu"><a href="#">Nouveau client</a></li>
+            <li class="Menu">Départ client</li>
+        </ul>
+    </nav>
+    <div>
+        <h2>Acceuil nouveau client</h2>
+    </div>
+    <fieldset>
+        <form>
+            <label for="surname">Prénom</label><input type="text" name="surname">
+            <label for="Lastname">Nom</label><input type="text" name="lastname">
+            <label for="nbNight">Nombre de nuit</label><input type="text" name="nbNight">
+            <label for="chamber">Chambre</label><select type="text" name="chamber">
+                <option value="">Choix de chambre</option>
+                <option value="">Chambre 1 personne</option>
+                <option value="">Chambre 2 personnes</option>
+                <option value="">Chambre 4 personnes</option>
+                <option value="">Loft</option>
+
+                <label for="name">Petit déjeuner</label>
+                <div>
+                    <input type="radio" name="choice" id="yes" value="yes">
+                    <label for="yes">Oui</label>
+                
+                    <input type="radio" name="choice" id="no" value="no">
+                    <label for="no">Non</label>
+                </div>
+                <button type="button">Enregistrer le client</button>
+        </form>
+    </fieldset>
     <!-- Menu navbar -->
     <section></section>
     <!-- Section arrive client  gaétan -->
-<hr>
+    <hr>
     <section></section>
     <!-- Section leave client Ophélie -->
 </body>
