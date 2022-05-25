@@ -1,1 +1,37 @@
-h1{color:blue;}
+@use "variables" as v;
+
+.container {
+    background-image: url("/img/Lille-Hall.jpg");
+    size: cover;
+    background-position: bottom;
+    padding: 8rem;
+    position: relative;
+
+    .departure {
+
+        background: rgba(255, 255, 255, 0.558);
+        padding: 0.2rem;
+        width: fit-content;
+        font-size: 2rem;
+        text-align: center;
+
+        position: relative;
+
+        margin: auto;
+
+        // transform: translate(-50%, -50%);
+
+    }
+
+    hr {
+        background-color: burlywood;
+        width: 50%;
+        font-weight: bold;
+        padding: 0;
+
+    }
+}
+
+fieldset {
+    margin-top: 1rem;
+}

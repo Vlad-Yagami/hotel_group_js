@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "sourceRoot": "",
-    "sources": [
-        "../sass/main.scss"
-    ],
-    "names": [],
-    "mappings": "AAAA;EAAG",
-    "file": "main.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/main.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EAEI;EACA;EACA;EACA;EACA;EAEA;EAEA;;AAMJ;EACI;EACA;EACA;EACA;;;AAKR;EACI","file":"main.css"}
